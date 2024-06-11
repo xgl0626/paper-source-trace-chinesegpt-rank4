@@ -58,7 +58,8 @@ python rong.py
 
 #### Model weight
 
-here are three model weight and pretrain weight： 2024-kddcup-pst-rank5-chinesegpt https://www.alipan.com/s/1hMr3JVEdJN 
+here are three model weight and pretrain weight： 2024-kddcup-pst-rank5-chinesegpt https://pan.baidu.com/s/1gIt6ZzZGOTRW6VeFcDRu6w 
+password：eyla 
 
 ## Method
 
