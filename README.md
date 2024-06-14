@@ -51,6 +51,15 @@ python bert-eval-429.py
 python bert-eval-423.py
 # output at out/kddcup/ (model weight and result)
 
+# inference
+注释掉其他训练函数，配置好权重和测试文件执行gen_kddcup_valid_submission_bert函数即可
+if __name__ == "__main__":
+    seed=2023
+    setup_seed(seed)
+    #prepare_bert_input()
+    #train(model_name="scibert")
+    gen_kddcup_valid_submission_bert(model_name="scibert")
+
 # Fusion of model results
 python rong.py
 #output at out/kddcup/scibert_rong/
@@ -60,6 +69,7 @@ python rong.py
 
 here are three model weight and pretrain weight： 2024-kddcup-pst-rank5-chinesegpt https://pan.baidu.com/s/1gIt6ZzZGOTRW6VeFcDRu6w 
 password：eyla 
+权重中包含了推理的结果
 
 ## Method
 
